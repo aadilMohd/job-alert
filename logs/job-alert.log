@@ -1,0 +1,8 @@
+2026-10-11 20:20:07,989 INFO    httpx: HTTP Request: GET https://www.indeed.com/jobs?q=python+developer&remotepos=0 "HTTP/1.1 200 OK"
+2026-10-11 20:20:08,539 WARNING scrapers.indeed: indeed: parsed 0 jobs (markup may have changed or blocked)
+2026-10-11 20:20:08,539 INFO    job_alert: indeed: 0 jobs fetched
+2026-10-11 20:20:08,938 INFO    httpx: HTTP Request: GET https://remotive.com/api/remote-jobs?search=python+developer "HTTP/1.1 200 OK"
+2026-10-11 20:20:08,952 INFO    job_alert: remotive: 18 jobs fetched
+2026-10-11 20:20:09,301 INFO    httpx: HTTP Request: GET https://www.arbeitnow.com/api/job-board-api "HTTP/1.1 200 OK"
+2026-10-11 20:20:09,517 INFO    job_alert: arbeitnow: 325 jobs fetched
+2026-10-11 20:20:09,521 INFO    job_alert: 343 total, 0 after filters
